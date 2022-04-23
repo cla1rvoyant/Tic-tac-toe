@@ -93,11 +93,7 @@ int main()
                             printf("The first player wins! Congratulations!\n");
                             flag = 1;
                         }
-                    }
-                    if (flag == 1) break;
 
-                    for (int i = 0; i < 3; i++)
-                    {
                         if (field[0][i] == 0 && field[1][i] == 0 && field[2][i] == 0)
                         {
                             printf("The first player wins! Congratulations!\n");
@@ -164,11 +160,7 @@ int main()
                             printf("The second player wins! Congratulations!\n");
                             flag = 1;
                         }
-                    }
-                    if (flag == 1) break;
 
-                    for (int i = 0; i < 3; i++)
-                    {
                         if (field[0][i] == 8 && field[1][i] == 8 && field[2][i] == 8)
                         {
                             printf("The second player wins! Congratulations!\n");
