@@ -32,17 +32,13 @@ int main()
             if (agree2 == 0)
             {
                 puts("This game has two players. The first player moves with zeroes, the second - with crosses. The task of both players is to line up three of their pieces either in a straight line or diagonally on the field. Whoever did it is the winner.\n");
-
                 continue;
             }
 
             for (int i = 0; i < 3; i++)
             {
                 printf("\n");
-
-                for (int j = 0; j < 3; j++)
-                    printf("%d\t", field[i][j]);
-                    
+                for (int j = 0; j < 3; j++) printf("%d\t", field[i][j]);
                 printf("\n");
             }
 
@@ -78,10 +74,7 @@ int main()
                     for (int i = 0; i < 3; i++)
                     {
                         printf("\n");
-
-                        for (int j = 0; j < 3; j++)
-                            printf("%d\t", field[i][j]);
-                    
+                        for (int j = 0; j < 3; j++) printf("%d\t", field[i][j]);
                         printf("\n");
                     }
 
@@ -134,20 +127,17 @@ int main()
                         }
 
                         if (field[crosses_line - 1][crosses_column - 1] == 0 || field[crosses_line - 1][crosses_column - 1] == 8)
-                            {
-                                printf("There's already a sign here!\n\n");
-                                continue;
-                            }
+                        {
+                            printf("There's already a sign here!\n\n");
+                            continue;
+                        }
                 
                         field[crosses_line - 1][crosses_column - 1] = 8;
 
                         for (int i = 0; i < 3; i++)
                         {
                             printf("\n");
-
-                            for (int j = 0; j < 3; j++)
-                                printf("%d\t", field[i][j]);
-
+                            for (int j = 0; j < 3; j++) printf("%d\t", field[i][j]);
                             printf("\n");
                         }
                         break;
@@ -190,10 +180,7 @@ int main()
 
         if (agree3 == 1)
         {
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++) field[i][j] = 1;
-            }
+            for (int i = 0; i < 3; i++) for (int j = 0; j < 3; j++) field[i][j] = 1;
         }
 
         else break;
