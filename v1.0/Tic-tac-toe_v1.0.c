@@ -4,7 +4,7 @@ The program is a game of tic-tac-toe.
 
 For more information read the README.md
 
-Author: clairvoyant39
+Author: cla1rvoyant
 01.03.2022
 Version: 1.0
 
