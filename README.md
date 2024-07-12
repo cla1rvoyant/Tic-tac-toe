@@ -9,5 +9,5 @@ After winning the first or second player, congratulations await him.
 ## Changes in version 1.1
 Reduced the size of the program, added a more efficient check of the results of the game, added a restriction due to which the user will not be able to exceed the number of lines or columns.
 
-##Changes in version 1.2
+## Changes in version 1.2
 The necessary icons for crosses and toes have been selected.
