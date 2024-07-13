@@ -5,7 +5,7 @@ The program is a game of tic-tac-toe.
 For more information read the README.md
 
 Author: cla1rvoyant
-12.08.2024
+12.07.2024
 Version: 1.2
 
 */
